@@ -14,7 +14,7 @@ Github is a hosting platform for `git`, which is a ubiquitous version control sy
 In CSCI 1300, we will not be covering `git` usage directly (though course staff are happy to answer questions about it in office hours!). That said, we want everyone to be familiar with the Github interface.
 
 # What is markdown (`.md`)?
-[Markdown](https://en.wikipedia.org/wiki/Markdown) is a **markup language** very commonly used throughout the software industry for technical writing. It is relatively readable in *source* form, but looks even better when *rendered* (for instance, compare the default view of [this readme](https://github.com/amitrege/CSCI1300-Summer2022/blob/main/README.md) on Github to the [raw version](https://raw.githubusercontent.com/amitrege/CSCI1300-Summer2022/main/README.md)).
+[Markdown](https://en.wikipedia.org/wiki/Markdown) is a **markup language** very commonly used throughout the software industry for technical writing. It is relatively readable in *source* form, but looks even better when *rendered*.
 
 Markdown files can easily be viewed in the Github UI. If you'd like to download a write-up, you can do so from the Github UI and open markdown files in VSCode. VSCode has good native [markdown support](https://code.visualstudio.com/docs/languages/markdown)--type `ctrl-shift-v` or `cmd-shift-v` to view a rendered version of your markdown file in VSCode.
 
