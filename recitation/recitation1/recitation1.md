@@ -1,5 +1,5 @@
 #### **CSCI 1300 CS1: Starting Computing**
-#### **Angel - Summer 2024**
+#### **Summer 2024**
 #### **Recitation 1 - Week of June 3rd, 2024**
 
 
