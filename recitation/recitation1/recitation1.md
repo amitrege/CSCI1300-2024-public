@@ -13,7 +13,7 @@ This week we’re setting up our coding environment, learn about pseudocode, and
 | Helps to simplify and understand the problem.| A method of developing an algorithm.      |
 
 
-Developers use pseudocode to plan out their real code, so there are no hard rules except that it needs to be easy to understand and easier to write than real code. See the Pseudocode Guide posted [here](https://github.com/CSCI1300-StartingComputing/CSCI1300-Spring2022/blob/main/homework/homework1/Pseudocode.md) for examples and tips on how to write pseudocode.
+Developers use pseudocode to plan out their real code, so there are no hard rules except that it needs to be easy to understand and easier to write than real code. See the Pseudocode examples from class slides and recitation for tips on how to write pseudocode.
 
 # Exercises
 
