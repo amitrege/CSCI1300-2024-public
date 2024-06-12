@@ -164,11 +164,11 @@ a. The following program should ask the user to enter two numbers and then print
 
 int main();
 {
-cout << "Please enter two numbers:"
-cin << x, y;
-cout << "The sum of << x << "and" << y
-    << "is: " x + y << endl;
-return;
+    cout << "Please enter two numbers:"
+    cin << x, y;
+    cout << "The sum of << x << "and" << y 
+        << "is: " x + y << endl;
+    return;
 }
 ```
 
@@ -186,23 +186,22 @@ b. The following program should ask the user to enter two numbers, then it shoul
 ```cpp    
 #include <iostream>
 using namespace std;
-
 int main()
 {
-int total;
-int x1;
-cout << "Please enter a number: " << endl;
-cin >> x1;
-total = total + x1;
-cout << "total: " << total << endl; // trace message
-cout << "Please enter another number: " << endl;
-int x2;
-cin >> x2;
-total = total + x1;
-cout << "total: " << total << endl; // trace message
-total = total / 2;
-cout << "The average of the two numbers is " << total << "endl";    // trace message
-return 0;
+    int total;
+    int x1;
+    cout << "Please enter a number: " << endl;
+    cin >> x1;
+    total = total + x1;
+    cout << "total: " << total << endl; // trace message
+    cout << "Please enter another number: " << endl;
+    int x2;
+    cin >> x2;
+    total = total + x1;
+    cout << "total: " << total << endl; // trace message
+    total = total / 2;
+    cout << "The average of the two numbers is " << total << "endl"; // trace message
+    return 0;
 }
 ```
 Note the **trace messages (marked as "//trace message")** are inserted to show the current contents of the "total" variable.
@@ -280,7 +279,7 @@ int main()
     char digit = '5';
     switch (digit) {
     case 0:
-	cout << "It's neither even nor odd!" << endl;
+	cout << "It's even!" << endl;
 	break;
     case 1:
 	cout << "It's odd!"  << endl;
@@ -333,25 +332,25 @@ int main()
 
 ### 2. Hydration app  <a name="app"></a>
 
-  Your goal is to drink half a gallon or 64 fl oz every day but you aren’t great at remembering to do it! So you decide to create a hydration app that tracks your water intake every day and will alert you based on how much you drank for the day.
-  The program first asks how much water you drank for the day, which is in fl oz and then displays a message based on whether you have hit your goal for the day.
-  Next, it will also tell you how much water you have left to drink. 
+  Your goal is to drink half a gallon or 64 fl oz of water every day but you aren’t great at remembering to do it! So you decide to create a hydration app that tracks your water intake every day and will alert you based on how much you drank for the day.
+  The program first asks how much water you drank for the day, in fl oz. It then displayes a message based on how close you are to hitting your goal for the day.
+  Finally, it will also tell you how much water you have left to drink. 
   
-  The following are the possible messages you will get based on your intake:<br/>
+  The following are the possible messages you will get based on your input:<br/>
   
-   1. If you’re drinking 32 fl oz or less, then you get
+   1. If you've had less than 32 fl oz of water to drink, then you get
     
  ```
-    "You’re very, very dehydrated! Get that water in! You have X fl oz left to drink."  
+    "You are very, very dehydrated! Get that water in! You have X fl oz left to drink."  
  ```
-   2. If you’re drinking more than 32 fl oz but less than 64 fl oz, then you get
+   2. If you’ve had at least 32 fl oz but less than 64 fl oz of water to drink, then you get
     
  ``` 
-    “You’re doing great, but you’re still halfway to your goal! Get that water in! You have X fl oz left to drink”
+    “You are doing great, you are half way to your goal! Get that water in! You have X fl oz left to drink.”
  ```
-   3. If you’re drinking 64 fl oz or more, then you get<br/>
+   3. If you’ve had 64 fl oz or more water, then you get<br/>
  ```
-    “You’ve hit your goal for the day! Great job getting hydrated!” 
+    “You have hit your goal for the day! Great job getting hydrated!” 
  ```     
         
  
@@ -359,9 +358,9 @@ int main()
  
   Example output(The * next to a line indicates user input)
   ```
-    How much water did you drink today?(in fl oz)
+    How much water did you drink today? (in fl ozs)
   * 37
-    You’re doing great, but you’re still halfway to your goal! Get that water in! You have 27 fl oz left to drink.
+    You are doing great, you are half way to your goal! Get that water in! You have X fl ozs left to drink.
 ```
   **2a**. Write an algorithm in pseudocode for the program above. 
 
