@@ -68,7 +68,7 @@ void display_arr(char arr[][COLUMN], int order, ostream* out) {
 // Since wwe're not printing things line by line like in cantor,
 // we don't need an extra for-loop
 
-void sierpinski(char arr[][COLUMN], int start_x, int start_y, int order) {
+void carpet(char arr[][COLUMN], int start_x, int start_y, int order) {
     
     // BASE CASE - print small square of order 1
     if (order == 1) {
@@ -88,17 +88,17 @@ void sierpinski(char arr[][COLUMN], int start_x, int start_y, int order) {
     }
 
     // TODO - set the right indices
-    sierpinski(arr, );
-    sierpinski(arr, );
-    sierpinski(arr, );
+    carpet(arr, );
+    carpet(arr, );
+    carpet(arr, );
 
-    sierpinski(arr, );
+    carpet(arr, );
     paint_empty(arr, );
-    sierpinski(arr, );
+    carpet(arr, );
 
-    sierpinski(arr, );
-    sierpinski(arr, );
-    sierpinski(arr, );
+    carpet(arr, );
+    carpet(arr, );
+    carpet(arr, );
 }
 
 
@@ -116,10 +116,10 @@ int main() {
     cout << "Enter order of the carpet: " << endl;
     cin >> order;
 
-    sierpinski(arr, 0, 0, order);
+    carpet(arr, 0, 0, order);
 
     ofstream fout;
-    fout.open("sierpinski.pgm");
+    fout.open("carpet.pgm");
 
     // Output PGM file header
     fout << "P2" << endl;
